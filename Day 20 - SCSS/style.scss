@@ -1,0 +1,45 @@
+@import "button";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin flexCenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    @include flexCenter()
+}
+
+#box{
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+        h1{
+            font-size: 50px;
+            color: white;
+        }
+            h3{
+                font-size: 25px;
+                color: rgb(255, 122, 74);
+        }
+                p{
+                    font-size: 16px;
+                    color: #ffffff;
+                    text-align: justify;
+        }
+                   button{
+                    @include button-style();
+                   }
+}

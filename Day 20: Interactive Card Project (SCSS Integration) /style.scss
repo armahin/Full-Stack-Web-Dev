@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Supreme;
+    src: url(/Font/Supreme/SupremeLLTT-Bold.woff2);
+    src: url(/Font/Supreme/SupremeLLTT-Regular.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Supreme;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+section{
+    height: 100%;
+    flex-grow: 1;
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+        h1{
+            font-size: 50px;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            opacity: 0;
+            transition: all 1s ease;
+            color: white;
+            font-weight: bold;
+        }
+            .black-scene{
+                height: 100%;
+                width: 100%;
+                background-color: black;
+                position: absolute;
+                opacity: 0;
+                transition: all 1s ease;
+            }
+   
+}
+section:hover{
+    flex-grow: 1.5;
+    
+        h1{
+            opacity: 1;
+            z-index: 2;
+        }
+            .black-scene{
+                opacity: 0.5;
+            }
+
+}
+section:nth-child(1){
+            background-image: url(/images/image32.jpg);
+
+        }
+section:nth-child(2){
+            background-image: url(/images/image33.jpg);
+        }
+section:nth-child(3){
+            background-image: url(/images/image35.jpg);
+
+        }
+section:nth-child(4){
+            background-image: url(/images/image37.jpg);
+        }
+section:nth-child(5){
+            background-image: url(/images/image36.jpg);
+        }
