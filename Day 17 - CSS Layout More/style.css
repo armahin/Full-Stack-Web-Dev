@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 260px;
+    color: transparent;
+    background-image: url(/images/gif.gif);
+    background-clip: text;
+}
+h2{
+    font-size: 260px;
+    color: rgb(255, 216, 247);
+    -webkit-text-stroke: 5px palevioletred;
+}

@@ -1,0 +1,10 @@
+Position - Absolute, Relative, Fixed, Sticky
+Top, Bottom, Left, Right
+Transform Properties - Translate(x and y), Rotate, Scale, Skew
+Hover, Transition
+
+[Optional] Making a Webpage with these
+
+
+
+Absolute - Kono element e absolute banay dile o upore uthe jay

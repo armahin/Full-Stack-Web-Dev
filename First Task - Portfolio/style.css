@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Supreme;
+    src: url(../Font/Supreme/SupremeLLTT-Regular.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Supreme ;
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(22, 38, 61);
+}
+#htexts{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+#htexts h1{
+    font-size: 50px;
+}
+#htexts h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#aboutme , .same{
+    margin: 20px auto;
+    padding: 30px;
+    width: 80vw;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+#aboutme h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#aboutme p{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(50, 50, 50);
+    margin: 30px 0;
+}
+#edu{
+    background-color: rgb(193, 231, 255);
+}
+#edu p{
+
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 100;
+}
+#edu h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#skills{
+    background-color: rgb(255, 238, 145);
+}
+
+#skills p, #projects p, #contact p{
+
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#skills h1, #projects h1, #contact h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#projects{
+    background-color: rgb(255, 182, 193);
+    margin-bottom: 50px;
+}
+#contact{
+    background-color: rgb(224, 255, 233);
+    margin-bottom: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(22, 38, 61);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: small;
+
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Supreme;
+    src: url(/Font/Supreme/SupremeLLTT-Regular.woff2), url(/Font/Supreme/SupremeLLTT-Bold.woff2);
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Supreme';
+    font-weight: 100;
+}
+#Firsth1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(219, 78, 78);
+}
+#Secondh1{
+    color: rgb(255, 255, 106);
+    background-color: rgb(58, 50, 100);
+}

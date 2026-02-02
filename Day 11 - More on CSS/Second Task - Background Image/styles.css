@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+#body{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    background-image: url('/images/image2.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    
+}
+#body h1{
+    padding-top: 200px;
+    color: white;
+    font-weight: lighter;
+    font-size: 110px;
+    background:linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
+}
+#body button{
+    margin: auto;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+}
