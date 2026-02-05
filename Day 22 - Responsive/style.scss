@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1.6fr 1fr ;
+    gap: 15px;
+    grid-template-areas: "one two two two" 
+                       "one three four five";
+        section{
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+        }
+        section:nth-child(1){
+            grid-area: one;
+            background-image: url(/images/image29.jpg);
+        }
+        section:nth-child(2){
+            grid-area: two;
+            background-image: url(/images/image25.jpg);
+        }
+        section:nth-child(3){
+            grid-area: three;
+            background-image: url(/images/image28.jpg);
+        }
+        section:nth-child(4){
+            background-image: url(/images/image26.jpg);
+            grid-area: four;
+
+        }
+        section:nth-child(5){
+            background-image: url(/images/image30.jpg);
+            grid-area: five;
+
+        }
+}
