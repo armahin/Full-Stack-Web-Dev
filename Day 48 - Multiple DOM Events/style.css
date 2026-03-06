@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    cursor: none;
+    background-color: darkorange;
+}
+img{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    transform: translate(-50%,-50%) rotate(20deg);
+    background-color: transparent;
+}
