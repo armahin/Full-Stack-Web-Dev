@@ -19,9 +19,25 @@ html, body{
     font-weight: 100;
 
 }
-#hero-text span{
+#hero-text h4{
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: right;
+
+}
+#hero-text .connect{
     font-weight: bold;
     background-color: rgb(211, 255, 145);
+    padding: 1px 10px;
+    border-radius: 25px;
+}
+#hero-text .mahin a{
+    text-decoration: none;
+    color: black;
+}
+#hero-text .mahin{
+    font-weight: bold;
+    background-color: rgb(255, 177, 177);
     padding: 1px 10px;
     border-radius: 25px;
 }
