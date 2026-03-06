@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+
+}
+#hero-text h2{
+    font-weight: 100;
+
+}
+#hero-text span{
+    font-weight: bold;
+    background-color: rgb(211, 255, 145);
+    padding: 1px 10px;
+    border-radius: 25px;
+}
+
+main{
+    height: 80%;
+    width: 60.2%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(245, 245, 245);
+    overflow: scroll;
+    border-radius: 45px;
+}
+#card{
+    height: 370px;
+    width: 280px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 40px;
+}
+#cover{
+    height: 120px;
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+
+}
+.cover{
+    height: 120px;
+    width: 100%;
+    border-radius: 30px;
+   
+}
+.id{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    transform: translateY(40%);
+    border: 2px solid white;
+}
+#cover button{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    transform: translateY(40%);
+    padding: 8px 20px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: #808080;
+    font-weight: bold;
+
+}
+#identity-sec{
+    margin-top: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#name h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#name h3{
+    font-size: 15px;
+    color: #979797;
+    font-weight: 200;
+
+}
+#save-ico i{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    color: #9c9c9c;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 50%;
+    
+}
+#save-ico i:hover{
+    color: #343434;
+    border: 1px solid rgb(177, 177, 177);
+    transition: 0.2s;
+    
+}
+#getintouch button{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 20px;
+    font-weight: bold;
+    color: #494949;
+    background-color: rgb(245, 245, 245);
+}
+#getintouch button:hover{
+    color: #717171;
+    border: 1px solid rgb(177, 177, 177);
+    transition: 0.2s;
+}
+
+#metrics{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+#metrics .rating{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#metrics #text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#text h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+#text p{
+    font-size: 11px;
+    font-weight: bold;
+    color: #7a7a7a;
+}
+
+#rating i{
+    color: #E3AA00;
+}
+#salary i{
+    color: #3483FF;
+}
+#time i{
+    color: #A858FA;
+}
+
+html {
+    scrollbar-color: #000000a9 transparent;
+}
