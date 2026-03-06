@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+#img{
+    position: relative;
+    overflow: hidden;
+}
+img{
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  
+}
+h1{
+    margin: 10px 0px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-family :Arial, Helvetica, sans-serif
+}
+
+#cap p{
+    color: rgb(95, 95, 95);
+    text-align: justify;
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.heart1{
+    background-image: url(https://img.freepik.com/premium-photo/gradient-instagram-color-palatte-background-story-post-banner-social-media-banner-background_609989-4570.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-clip: text; 
+    position: absolute;
+    font-size: 100px;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%) scale(0) rotate(0deg);
+    color: transparent;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(1,.99,0,.86);
+   
+    
+}
+
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heart2{
+    font-size: 25px;
+    margin-right: 10px;
+    color: transparent;
+}
