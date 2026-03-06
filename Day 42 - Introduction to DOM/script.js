@@ -15,6 +15,7 @@ box.addEventListener('click', function() {
     box.innerHTML =  count;
     count = count+1;
     box.style.fontSize = '50px';
+    box.style.userSelect = 'none';
 })
 var resetButton = document.querySelector('button');
 
@@ -22,4 +23,6 @@ resetButton.addEventListener('click', function(){
     count = 1
     box.innerHTML = 'Owwhh!! Click Me';
     box.style.fontSize = '';
+    box.style.userSelect = 'none';
+
 })
