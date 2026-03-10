@@ -15,11 +15,13 @@ html, body{
 
 @keyframes textBg {
     from{
-        padding: 100% 100%;
+        padding: 0px;
+        background-color: rgb(255, 145, 120);
     }
     to{
-        padding: 0px 20px;
-        color: black;
+        padding: 2px;
+        
+        background-color: rgb(255, 179, 161);
     }
 }
 
@@ -27,7 +29,6 @@ p{
     font-size: 20px;
     background-color: yellowgreen;
     font-family: monospace;
-    padding: 1000px 20px;
-    animation: textBg 4s 1 both ;
+    animation: textBg 0.5s infinite both alternate;
     text-wrap: nowrap;
  }
