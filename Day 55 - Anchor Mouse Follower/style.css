@@ -14,25 +14,35 @@ html, body{
     anchor-name: --some-anchor;
 }
 .box{
-    height: 100px;
+    height: 50px;
     width: 100px;
     transition: all 0.4s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-weight: 100;
+
 }
 
 .box1{
-    background-color: crimson;
-   
-    
+    background-color: #264653;
 }
 .box2{
-    background-color: yellowgreen;
+    background-color: #2a9d8f;
     
 }
 .box3{
-    background-color: gainsboro;
+    background-color: #e9c46a
+}
+.box4{
+    background-color: #f4a261;
+}
+.box5{
+    background-color: #e76f51;
 }
 .anchor{
-    background-color: aqua;
+    background-color: #fefae0;
     position: absolute;
     left: anchor(left);
     top: anchor(top);
