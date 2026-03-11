@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    anchor-name: --some-anchor;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    transition: all 0.4s linear;
+}
+
+.box1{
+    background-color: crimson;
+   
+    
+}
+.box2{
+    background-color: yellowgreen;
+    
+}
+.box3{
+    background-color: gainsboro;
+}
+.anchor{
+    background-color: aqua;
+    position: absolute;
+    left: anchor(left);
+    top: anchor(top);
+    bottom: anchor(bottom);
+    right: anchor(right);
+    position-anchor: --some-anchor;
+    transition: all 0.3s linear;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    
+
+}
+.box:hover{
+     anchor-name: --some-anchor;
+}
