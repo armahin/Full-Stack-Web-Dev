@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(170, 67, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(54, 144, 128);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+React JS - Just a library. 
+
+GSAP - Moving Animation
+Lenis - Scrolling Smoothness
+SwiperJS - Sliders
+Three Js - 3D Elements
+React JS - UI
+
+React JS - Under the hood kivabe kaaj kore?
+
+React and React DOM are two diff thing
+React UI banay
+React DOM - React er through te banano UI and Real DOM Connect kore
