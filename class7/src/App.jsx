@@ -5,7 +5,9 @@ const [title, settitle] = useState("")
 const [subtitle, setsubtitle] = useState("")
 const [descrip, setdescrip] = useState("")
 const [image, setimage] = useState("")
-const [user, setuser] = useState([])
+
+const localData = JSON.parse(localStorage.getItem("userdata")) || []
+const [user, setuser] = useState(localData)
 
 function submitHandler(e){
   e.preventDefault();
@@ -17,6 +19,9 @@ function submitHandler(e){
     image : image || "https://images.unsplash.com/photo-1728577740843-5f29c7586afe?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
   )
   setuser(oldUser)
+
+ localStorage.setItem("userdata",JSON.stringify(oldUser))
+
   console.log(oldUser)
   settitle("")
   setsubtitle("")
@@ -25,10 +30,18 @@ function submitHandler(e){
   
 }
 function deleteHandler(idx){
-  console.log("deleted")
+
+  const isConfirmed = window.confirm(
+    "Are you sure you want to delete this card?"
+  )
+
+  if (!isConfirmed) return
   const newUser = [...user]
   newUser.splice(idx,1)
   setuser(newUser)
+  localStorage.setItem("userdata",JSON.stringify(newUser))
+
+
 }
 
   return (
